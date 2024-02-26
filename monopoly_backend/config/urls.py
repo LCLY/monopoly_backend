@@ -21,6 +21,7 @@ urlpatterns += [
     # API base url
     path("api/", include("album.urls")),
     path("api/", include("sticker.urls")),
+    path("api/", include("season.urls")),
     # DRF auth token
     # path("auth-token/", obtain_auth_token),
     # path("api/schema/", SpectacularAPIView.as_view(), name="api-schema"),
